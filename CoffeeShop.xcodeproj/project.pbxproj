@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		340BD0841BEB3C1C005BDA0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD0831BEB3C1C005BDA0B /* main.m */; };
 		340BD0871BEB3C1C005BDA0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD0861BEB3C1C005BDA0B /* AppDelegate.m */; };
-		340BD08A1BEB3C1C005BDA0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD0891BEB3C1C005BDA0B /* ViewController.m */; };
 		340BD08D1BEB3C1C005BDA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BD08B1BEB3C1C005BDA0B /* Main.storyboard */; };
 		340BD08F1BEB3C1C005BDA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340BD08E1BEB3C1C005BDA0B /* Assets.xcassets */; };
 		340BD0921BEB3C1C005BDA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BD0901BEB3C1C005BDA0B /* LaunchScreen.storyboard */; };
+		340BD09B1BEB3E07005BDA0B /* CoffeeShopInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD09A1BEB3E07005BDA0B /* CoffeeShopInfo.m */; };
+		340BD09D1BEB4203005BDA0B /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 340BD09C1BEB4203005BDA0B /* placeholder.png */; };
+		340BD0A01BEB44E1005BDA0B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD09F1BEB44E1005BDA0B /* DetailViewController.m */; };
+		340BD0A31BEB4662005BDA0B /* ParseSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD0A21BEB4662005BDA0B /* ParseSaveViewController.m */; };
+		340BD0A61BEB7258005BDA0B /* ImageZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD0A51BEB7258005BDA0B /* ImageZoomViewController.m */; };
+		340BD0A81BEB79A3005BDA0B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340BD0A71BEB79A3005BDA0B /* MapKit.framework */; };
+		340BD0AB1BEB79F1005BDA0B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD0AA1BEB79F1005BDA0B /* MapViewController.m */; };
+		340BD0AE1BEB7CE7005BDA0B /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD0AD1BEB7CE7005BDA0B /* MyAnnotation.m */; };
+		CBEBA189338C9DCDD3B6979D /* libPods-CoffeeShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387740B1127918A064B82ADA /* libPods-CoffeeShop.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,27 @@
 		340BD0831BEB3C1C005BDA0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		340BD0851BEB3C1C005BDA0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		340BD0861BEB3C1C005BDA0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		340BD0881BEB3C1C005BDA0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		340BD0891BEB3C1C005BDA0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		340BD08C1BEB3C1C005BDA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		340BD08E1BEB3C1C005BDA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340BD0911BEB3C1C005BDA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340BD0931BEB3C1C005BDA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340BD0991BEB3E07005BDA0B /* CoffeeShopInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopInfo.h; sourceTree = "<group>"; };
+		340BD09A1BEB3E07005BDA0B /* CoffeeShopInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopInfo.m; sourceTree = "<group>"; };
+		340BD09C1BEB4203005BDA0B /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		340BD09E1BEB44E1005BDA0B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		340BD09F1BEB44E1005BDA0B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		340BD0A11BEB4662005BDA0B /* ParseSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseSaveViewController.h; sourceTree = "<group>"; };
+		340BD0A21BEB4662005BDA0B /* ParseSaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseSaveViewController.m; sourceTree = "<group>"; };
+		340BD0A41BEB7258005BDA0B /* ImageZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageZoomViewController.h; sourceTree = "<group>"; };
+		340BD0A51BEB7258005BDA0B /* ImageZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageZoomViewController.m; sourceTree = "<group>"; };
+		340BD0A71BEB79A3005BDA0B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		340BD0A91BEB79F1005BDA0B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		340BD0AA1BEB79F1005BDA0B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		340BD0AC1BEB7CE7005BDA0B /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		340BD0AD1BEB7CE7005BDA0B /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		387740B1127918A064B82ADA /* libPods-CoffeeShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C63B1723C3D9A83C25E1E7D /* Pods-CoffeeShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeShop/Pods-CoffeeShop.release.xcconfig"; sourceTree = "<group>"; };
+		44D43342C1C9E5055634410F /* Pods-CoffeeShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeeShop/Pods-CoffeeShop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340BD0A81BEB79A3005BDA0B /* MapKit.framework in Frameworks */,
+				CBEBA189338C9DCDD3B6979D /* libPods-CoffeeShop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				340BD0811BEB3C1C005BDA0B /* CoffeeShop */,
 				340BD0801BEB3C1C005BDA0B /* Products */,
+				AE276EFF0AC75840BB4D2B47 /* Pods */,
+				FB735375C1041748D0BF31FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +87,20 @@
 			children = (
 				340BD0851BEB3C1C005BDA0B /* AppDelegate.h */,
 				340BD0861BEB3C1C005BDA0B /* AppDelegate.m */,
-				340BD0881BEB3C1C005BDA0B /* ViewController.h */,
-				340BD0891BEB3C1C005BDA0B /* ViewController.m */,
+				340BD0991BEB3E07005BDA0B /* CoffeeShopInfo.h */,
+				340BD09A1BEB3E07005BDA0B /* CoffeeShopInfo.m */,
 				340BD08B1BEB3C1C005BDA0B /* Main.storyboard */,
+				340BD0AC1BEB7CE7005BDA0B /* MyAnnotation.h */,
+				340BD0AD1BEB7CE7005BDA0B /* MyAnnotation.m */,
+				340BD0A91BEB79F1005BDA0B /* MapViewController.h */,
+				340BD0AA1BEB79F1005BDA0B /* MapViewController.m */,
+				340BD0A41BEB7258005BDA0B /* ImageZoomViewController.h */,
+				340BD0A51BEB7258005BDA0B /* ImageZoomViewController.m */,
+				340BD0A11BEB4662005BDA0B /* ParseSaveViewController.h */,
+				340BD0A21BEB4662005BDA0B /* ParseSaveViewController.m */,
+				340BD09E1BEB44E1005BDA0B /* DetailViewController.h */,
+				340BD09F1BEB44E1005BDA0B /* DetailViewController.m */,
+				340BD09C1BEB4203005BDA0B /* placeholder.png */,
 				340BD08E1BEB3C1C005BDA0B /* Assets.xcassets */,
 				340BD0901BEB3C1C005BDA0B /* LaunchScreen.storyboard */,
 				340BD0931BEB3C1C005BDA0B /* Info.plist */,
@@ -79,6 +117,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AE276EFF0AC75840BB4D2B47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44D43342C1C9E5055634410F /* Pods-CoffeeShop.debug.xcconfig */,
+				3C63B1723C3D9A83C25E1E7D /* Pods-CoffeeShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB735375C1041748D0BF31FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				340BD0A71BEB79A3005BDA0B /* MapKit.framework */,
+				387740B1127918A064B82ADA /* libPods-CoffeeShop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 340BD0961BEB3C1C005BDA0B /* Build configuration list for PBXNativeTarget "CoffeeShop" */;
 			buildPhases = (
+				F84B24E0585E86C5F184BE27 /* Check Pods Manifest.lock */,
 				340BD07B1BEB3C1C005BDA0B /* Sources */,
 				340BD07C1BEB3C1C005BDA0B /* Frameworks */,
 				340BD07D1BEB3C1C005BDA0B /* Resources */,
+				C9DB7D2261976188D416E021 /* Embed Pods Frameworks */,
+				33093A9C0EF9E8670EAAF8BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				340BD0921BEB3C1C005BDA0B /* LaunchScreen.storyboard in Resources */,
+				340BD09D1BEB4203005BDA0B /* placeholder.png in Resources */,
 				340BD08F1BEB3C1C005BDA0B /* Assets.xcassets in Resources */,
 				340BD08D1BEB3C1C005BDA0B /* Main.storyboard in Resources */,
 			);
@@ -144,14 +204,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33093A9C0EF9E8670EAAF8BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeShop/Pods-CoffeeShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9DB7D2261976188D416E021 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeeShop/Pods-CoffeeShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84B24E0585E86C5F184BE27 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		340BD07B1BEB3C1C005BDA0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				340BD08A1BEB3C1C005BDA0B /* ViewController.m in Sources */,
+				340BD0A31BEB4662005BDA0B /* ParseSaveViewController.m in Sources */,
+				340BD09B1BEB3E07005BDA0B /* CoffeeShopInfo.m in Sources */,
+				340BD0AE1BEB7CE7005BDA0B /* MyAnnotation.m in Sources */,
 				340BD0871BEB3C1C005BDA0B /* AppDelegate.m in Sources */,
+				340BD0A61BEB7258005BDA0B /* ImageZoomViewController.m in Sources */,
 				340BD0841BEB3C1C005BDA0B /* main.m in Sources */,
+				340BD0A01BEB44E1005BDA0B /* DetailViewController.m in Sources */,
+				340BD0AB1BEB79F1005BDA0B /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +372,7 @@
 		};
 		340BD0971BEB3C1C005BDA0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D43342C1C9E5055634410F /* Pods-CoffeeShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoffeeShop/Info.plist;
@@ -270,6 +384,7 @@
 		};
 		340BD0981BEB3C1C005BDA0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C63B1723C3D9A83C25E1E7D /* Pods-CoffeeShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoffeeShop/Info.plist;
@@ -298,6 +413,7 @@
 				340BD0981BEB3C1C005BDA0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
